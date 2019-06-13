@@ -6,7 +6,7 @@ int main(){
 	char userid[20],password[10],fuserid[20],fpass[20];
 	int count=3;
 	FILE *fp;
-	fp=fopen("F:\\MatrixProject\\Matrix project\\Details.txt","r");
+	fp=fopen("F:\\MatrixProject\\Matrix project\\Details.txt","r");//File Path
 	while(count>0){
 	printf("\nEnter userid:");
 	scanf("%s",userid);
